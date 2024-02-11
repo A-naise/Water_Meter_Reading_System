@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 
-# Path to the Tesseract executable (For me it's linux)
+
 pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 def extract_text_from_image(image_path):
